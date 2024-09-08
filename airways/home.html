@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> liam travels</title>
+    <link rel="stylesheet" href="my.css">
+    <link rel="icon" href="assets/air bg.JPG">
+</head>
+<body>
+    <header>
+        
+        <div>
+            <img src="assets/logo.JPG">
+            <h1> liam travels</h1>
+            </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#destination">destinations </a>
+                </li>
+                <li>
+                    <a href="#about"> about</a>
+                </li>
+                <li>
+                    <a href="#contact"> contact</a>
+                </li>
+                <li>
+                    <a href="# booknow"> book now</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="destinations">
+            <h2>
+                popular destinations
+            </h2>
+            <span class="destinations-list">
+                <span class="destinations-item">
+                 <img src="assets/kampala.JPG">
+                 <h3> kampala</h3>
+                 <P> explore the Golden state with liam travels</P>
+                </span>
+                <span class="destinations-item">
+                 <img src="assets/rubaga.JPG">
+                 <h3> rubaga</h3>
+                 <p> discover the great nice foods arround </p>
+                </span>
+                <span class="destinations-item">
+                    <img src="assets/lake.JPG">
+                    <h3> lake victoria</h3>
+                    <p>  exprience the pristine braches of lake victoria</p>
+
+                </span>
+            </span>
+        </section>
+        <section id="about">
+            <h2> about us</h2>
+            <p> liam travels is deicated to provied the best travel exprience. we offer flight to top destinations arround the world ensuring comfort and safefty for our passengers  </p>
+
+        </section>
+        <section id="booking">
+            <h2>
+                book your flight
+            </h2>
+            <form id="booking-form">
+                <label for="destination"> choose destination:</label>
+                <select id="destination" name="destination">
+                <option value="kampala">kampala</option>
+                <option value="rubaga">rubaga</option>
+                <option value="lake victoria"> lake victoria</option>
+            </select>
+                <label for="date">select date:</label>
+                    <input type="date" id="date" name="date">
+                    <label for="passengers"> number of passengers:</label>
+                    <input type="number" id="passengers" name="passengers" min="1" max="10">
+                    <button type="submit">book now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024 liam travels. All Rights reserved.</p>
+    </footer>
+    <script src="my.js"></script>
+</body>
+</html>
